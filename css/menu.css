@@ -114,11 +114,39 @@
   justify-content: center;
 }
 
+.menu-wrap .menu a {
+  font-size: 66px;
+}
+
+.menu-wrap .menu li:nth-child(1) {
+  animation: animateColor 6s linear infinite;
+  animation-direction: alternate;
+  animation-delay: 0s;
+}
+
+.menu-wrap .menu li:nth-child(2) {
+  animation: animateColor 6s linear infinite;
+  animation-direction: alternate;
+  animation-delay: 0.8s;
+}
+
+.menu-wrap .menu li:nth-child(3) {
+  animation: animateColor 6s linear infinite;
+  animation-direction: alternate;
+  animation-delay: 1.6s;
+}
+
+.menu-wrap .menu li:nth-child(4) {
+  animation: animateColor 6s linear infinite;
+  animation-direction: alternate;
+  animation-delay: 2.4s;
+}
+
 .menu-wrap .menu > div {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 50%;
   width: 200vw;
-  height: 200vw;
+  height: 200vh;
   display: flex;
   flex: none;
   align-items: center;
@@ -151,7 +179,7 @@
 
 @keyframes animate {
   0% {
-    background: #fc0909;
+    background: #ff0000;
   }
   25% {
     background: #29ee0f;
@@ -167,6 +195,24 @@
   }
 }
 
+@keyframes animateColor {
+  0% {
+    color: #ff0000;
+  }
+  25% {
+    color: #29ee0f;
+  }
+  50% {
+    color: #3bf2ff;
+  }
+  75% {
+    color: #ff00e0;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .menu-wrap .hamburger > div:before {
     top: -10px;
@@ -174,5 +220,14 @@
 
   .menu-wrap .hamburger > div:after {
     top: 10px;
+  }
+
+  .menu-wrap .menu a {
+    font-size: 36px;
+  }
+
+  .menu-wrap .toggler,
+  .menu-wrap .hamburger {
+    width: 75px;
   }
 }
