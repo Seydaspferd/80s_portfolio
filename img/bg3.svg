@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1937.546" height="590" viewBox="0 0 1937.546 590">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#29d9d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="0.818" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2cffff"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect width="1920" height="584" fill="none"/>
+    </clipPath>
+    <filter id="Pfad_1" x="0" y="0.464" width="1934.546" height="512.536" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="aqua"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_2" x="25" y="11.206" width="1912.546" height="513.052" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="aqua"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="bg3" transform="translate(9)">
+    <rect id="Rechteck_1" data-name="Rechteck 1" width="1920" height="501" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="230.5" cy="221" rx="230.5" ry="221" transform="translate(518 44)" fill="url(#linear-gradient-2)"/>
+    <g id="Wiederholungsraster_1" data-name="Wiederholungsraster 1" transform="translate(0 6)" clip-path="url(#clip-path)">
+      <g transform="translate(0 -6)">
+        <rect id="Rechteck_2" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 12)">
+        <rect id="Rechteck_2-2" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 30)">
+        <rect id="Rechteck_2-3" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 48)">
+        <rect id="Rechteck_2-4" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 66)">
+        <rect id="Rechteck_2-5" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 84)">
+        <rect id="Rechteck_2-6" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 102)">
+        <rect id="Rechteck_2-7" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 120)">
+        <rect id="Rechteck_2-8" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 138)">
+        <rect id="Rechteck_2-9" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 156)">
+        <rect id="Rechteck_2-10" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 174)">
+        <rect id="Rechteck_2-11" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 192)">
+        <rect id="Rechteck_2-12" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 210)">
+        <rect id="Rechteck_2-13" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 228)">
+        <rect id="Rechteck_2-14" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 246)">
+        <rect id="Rechteck_2-15" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 264)">
+        <rect id="Rechteck_2-16" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 282)">
+        <rect id="Rechteck_2-17" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 300)">
+        <rect id="Rechteck_2-18" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 318)">
+        <rect id="Rechteck_2-19" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 336)">
+        <rect id="Rechteck_2-20" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 354)">
+        <rect id="Rechteck_2-21" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 372)">
+        <rect id="Rechteck_2-22" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 390)">
+        <rect id="Rechteck_2-23" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 408)">
+        <rect id="Rechteck_2-24" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 426)">
+        <rect id="Rechteck_2-25" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 444)">
+        <rect id="Rechteck_2-26" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 462)">
+        <rect id="Rechteck_2-27" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 480)">
+        <rect id="Rechteck_2-28" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 498)">
+        <rect id="Rechteck_2-29" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 516)">
+        <rect id="Rechteck_2-30" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 534)">
+        <rect id="Rechteck_2-31" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 552)">
+        <rect id="Rechteck_2-32" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+      <g transform="translate(0 570)">
+        <rect id="Rechteck_2-33" data-name="Rechteck 2" width="1920" height="9" transform="translate(0 6)"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, 0)" filter="url(#Pfad_1)">
+      <path id="Pfad_1-2" data-name="Pfad 1" d="M0,501H27.472V386.218H74.335V501H95.343V358.746H140.59V492.872h16.16V310.267l42.015-29.088V492.872h50.1V429.849h43.631v63.023h16.16V345.819H365.21v95.342h38.783v51.711h19.392V397.53l22.624-38.783,21.008,38.783v95.342H505.8l79.183-281.18,79.183,281.18H698.1V358.746h38.783V492.872h43.631V298.955l40.4-56.559,35.551,56.559V492.872h29.088V397.53l37.167,22.624H940.5v72.719h42.015V298.955l-32.32-17.776V255.324h32.32V211.693l11.312-35.551V71.1l14.544-64.639L1027.76,71.1V176.141l9.7,35.551v43.631h33.935V281.18l-33.935,17.776V492.872H1092.4V358.746h50.1V397.53h33.935v43.631h40.4v51.711h82.415V397.53l-43.631-38.783V310.267l43.631-54.943h54.943l42.015,54.943v48.479l-42.015,38.783v95.342H1405.9V397.53h42.015v95.342h48.479V227.852l48.479,53.327V457.321h59.791v35.551h66.255V397.53l35.552-25.856,35.551,25.856v95.342h37.167V420.153h40.4v37.167h29.088v35.551h29.088v-121.2h38.783V501Z" transform="translate(9)"/>
+    </g>
+    <path id="Pfad_3" data-name="Pfad 3" d="M0,501H27.43V386.218H74.222V501H95.2V358.746h45.178V492.872h16.135V310.267l41.951-29.088V492.872h50.019V429.849h43.565v63.023h16.135V345.819h56.473v95.342h38.724v51.711H422.74V397.53l22.589-38.783,20.976,38.783v95.342h38.724l79.062-281.18,79.062,281.18h33.884V358.746h38.724V492.872h43.565V298.955L819.664,242.4l35.5,56.559V492.872H884.2V397.53l37.111,22.624h17.749v72.719h41.951V298.955l-32.27-17.776V255.324h32.27V211.693l11.295-35.551V71.1l14.522-64.639L1026.194,71.1V176.141l9.681,35.551v43.631h33.884V281.18l-33.884,17.776V492.872h54.859V358.746h50.019V397.53h33.884v43.631h40.338v51.711h82.289V397.53L1253.7,358.746V310.267l43.565-54.943h54.859l41.951,54.943v48.479l-41.951,38.783v95.342h51.632V397.53h41.951v95.342h48.405V227.852l48.405,53.327V457.321h59.7v35.551h66.154V397.53l35.5-25.856,35.5,25.856v95.342h37.111V420.153h40.338v37.167h29.043v35.551H1874.9v-121.2h38.724V501Z" transform="translate(-8.08 -6)" fill="rgba(0,0,0,0.4)"/>
+    <g transform="matrix(1, 0, 0, 1, -9, 0)" filter="url(#Pfad_2)">
+      <path id="Pfad_2-2" data-name="Pfad 2" d="M0,501.516H27.156v-114.9H73.482v114.9H94.248v-142.4h44.728V493.38H154.95v-182.8l41.533-29.118V493.38H246V430.291h43.13V493.38h15.974V346.173h55.91v95.442h38.338V493.38h19.169V397.938l22.364-38.824,20.767,38.824V493.38h38.338l78.274-281.473L656.542,493.38h33.546V359.114h38.338V493.38h43.13V299.261l39.936-56.618,35.143,56.618V493.38h28.754V397.938l36.741,22.647H929.7V493.38h41.533V299.261l-31.949-17.794V255.584h31.949V211.907l11.182-35.589V71.17L996.793,6.464l19.169,64.706V176.318l9.585,35.589v43.677h33.546v25.883l-33.546,17.794V493.38h54.312V359.114h49.52v38.824h33.546v43.677h39.936V493.38h81.469V397.938l-43.13-38.824v-48.53l43.13-55h54.312l41.533,55v48.53l-41.533,38.824V493.38h51.118V397.938h41.533V493.38h47.923v-265.3l47.923,53.383V457.791h59.1V493.38h65.495V397.938l35.143-25.883,35.143,25.883V493.38h36.741V420.585H1798.7v37.206h28.754V493.38h28.754V372.055h38.338V501.516Z" transform="translate(34 10.74)"/>
+    </g>
+    <rect id="Rechteck_3" data-name="Rechteck 3" width="1920" height="86" transform="translate(0 497)"/>
+  </g>
+</svg>
