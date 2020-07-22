@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  height: 100vh;
+  font-weight: 400;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+img {
+  position: fixed;
+  width: 100%;
+  top: 1vh;
+  transition: top 1s;
+}
+
+/* road rage font */
+
+.centered {
+  position: absolute;
+  left: 50vw;
+  top: 8vh;
+  transform: translateX(-50%) translateY(-8%);
+}
+.road-rage {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 94px;
+  font-style: italic;
+  line-height: 75%;
+  display: inline-block;
+  transform: rotate(-5deg);
+  color: #fe417b;
+  background: #fe417b;
+  width: 120%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: url(#softGlow);
+  z-index: -1;
+}
+
+.road-rage.offset {
+  margin-left: 3rem;
+}
+
+.shine:after {
+  /*   text-shadow:0 0 10px #fe417b, 0 0 100px #fe417b; */
+  content: attr(data-text);
+  background-image: linear-gradient(
+    0deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.5) 35%,
+    transparent 60%
+  );
+  mix-blend-mode: soft-light;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-background-clip: text;
+  background-size: 100% 100%;
+  background-position: 100% 50%;
+  z-index: 999;
+}
+
+/* end font */
+
+@media only screen and (max-width: 768px) {
+  img {
+    top: 30vh;
+  }
+
+  .menu-wrap .menu {
+  }
+}
