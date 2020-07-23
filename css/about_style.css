@@ -45,10 +45,6 @@ img {
   z-index: -1;
 }
 
-.road-rage.offset {
-  margin-left: 3rem;
-}
-
 .shine:after {
   /*   text-shadow:0 0 10px #fe417b, 0 0 100px #fe417b; */
   content: attr(data-text);
@@ -77,6 +73,7 @@ img {
     top: 30vh;
   }
 
-  .menu-wrap .menu {
+  .road-rage {
+    font-size: 48px;
   }
 }
