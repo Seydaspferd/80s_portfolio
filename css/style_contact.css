@@ -46,7 +46,7 @@ body {
   position: static;
   height: 60vh;
   width: 100%;
-  background-image: url(/img/bg2.svg);
+  background-image: url(./img/bg2.svg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
