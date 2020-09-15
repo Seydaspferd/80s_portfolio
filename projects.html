@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style_projects.css" />
     <link rel="stylesheet" href="css/menu.css" />
+    <script
+      src="https://kit.fontawesome.com/7ccb861ac0.js"
+      crossorigin="anonymous"
+    ></script>
     <title>My Projects</title>
   </head>
   <body>
-    <div class="title"><h1>My Projects</h1></div>
+    <!-- rainbow scrollbar -->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
 
     <div class="menu-wrap">
       <input type="checkbox" class="toggler" />
@@ -26,7 +32,231 @@
         </div>
       </div>
     </div>
+    <div class="title-container">
+      <div class="title">
+        <h1>My Projects</h1>
+      </div>
+    </div>
 
-    <img src="img/bg3.svg" alt="background" />
+    <div class="project-container">
+      <div><h2>Check out some of my work</h2></div>
+
+      <br />
+      <br />
+      <br />
+      <div><h2>Other projects that I learned from</h2></div>
+      <br />
+      <br />
+      <br />
+
+      <div class="projects">
+        <div class="item">
+          <a href="#!">
+            <img src="img/netflix_clone_thumbnail.jpg" alt="Project" />
+
+            <button class="button btn1">Read More</button>
+          </a>
+
+          <a
+            href="https://seydaspferd.github.io/netflix_clone/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/Seydaspferd/netflix_clone"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img
+              src="img/responsive_image_slider_thumbnail.jpg"
+              alt="Project"
+            />
+            <button class="button btn2">Read More</button>
+          </a>
+          <a
+            href="https://seydaspferd.github.io/responsive_image_slider/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/Seydaspferd/responsive_image_slider"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img
+              src="img/rock_paper_scissors_game_thumbnail.jpg"
+              alt="Project"
+            />
+          </a>
+          <a
+            href="https://seydaspferd.github.io/rock_paper_scissors_game/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/Seydaspferd/rock_paper_scissors_game"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img src="img/sliding_signin_form_thumbnail.jpg" alt="Project" />
+          </a>
+          <a
+            href="https://seydaspferd.github.io/sliding_signin_form/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/Seydaspferd/sliding_signin_form"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="#!">
+            <img src="img/product_landing_page_thumbnail.jpg" alt="Project" />
+          </a>
+          <a
+            href="https://seydaspferd.github.io/product_landing_page/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/Seydaspferd/product_landing_page"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img src="img/js_password_generator_thumbnail.jpg" alt="Project" />
+          </a>
+          <a
+            href="https://seydaspferd.github.io/js_password_generator/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/Seydaspferd/js_password_generator"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="#!">
+            <img
+              src="img/animated_wavy_background_thumbnail.jpg"
+              alt="Project"
+            />
+          </a>
+          <a
+            href="https://seydaspferd.github.io/animated_wavy_background_effect/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Project
+          </a>
+          <a
+            href="https://github.com/Seydaspferd/animated_wavy_background_effect"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+          <p>Hello...I am a modal</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab at fuga
+            quisquam architecto, autem rem consequuntur vel dolore aut nobis
+            doloremque quo, vero atque cum molestiae delectus pariatur earum ex
+            mollitia, ipsam qui soluta incidunt. Suscipit obcaecati non animi
+            vel officia rerum ducimus voluptates dolores et quod, ipsam, ab
+            molestias excepturi rem laudantium. Vel nostrum odit exercitationem
+            ea sint modi nesciunt natus, voluptas saepe nisi veniam alias nihil
+            quod sunt, sit assumenda cum ipsam quibusdam numquam non eius,
+            architecto enim facilis. Vitae fugiat aperiam minima reprehenderit
+            veritatis ipsa vero consequatur fuga veniam quibusdam ex tempore
+            odio quisquam labore earum a velit optio qui, illum nam illo
+            praesentium! Vel hic doloremque voluptates blanditiis aliquid,
+            expedita distinctio modi delectus laudantium recusandae rem!
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>Modal Footer</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+          <p>Hello...I am a modal</p>
+          <p>Test 2</p>
+        </div>
+        <div class="modal-footer">
+          <h3>Modal Footer</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- rainbow scrollbar -->
+    <script type="text/javascript">
+      let progress = document.getElementById('progressbar');
+      let totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function () {
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + '%';
+      };
+    </script>
+
+    <script src="js/projects.js"></script>
   </body>
 </html>
