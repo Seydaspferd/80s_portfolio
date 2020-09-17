@@ -83,10 +83,12 @@ body {
 .btn,
 .btn-dark,
 .btn-light {
+  font-family: 'Lato', sans-serif;
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
+  font-size: 16px;
 }
 .btn:hover,
 .btn-dark:hover,
@@ -109,21 +111,6 @@ body {
 
 html {
   scrollbar-width: none;
-}
-
-section {
-  padding: 10px 40%;
-  background: black;
-}
-
-section h2 {
-  font-size: 2.5rem;
-  color: white;
-}
-
-section p {
-  font-size: 1.2rem;
-  color: white;
 }
 
 ::-webkit-scrollbar {
@@ -193,6 +180,8 @@ section p {
   background: black;
   color: #fff;
   width: 100%;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
 }
 
 .button:hover {
@@ -203,13 +192,14 @@ section p {
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'Lato', sans-serif;
 }
 
 .modal-content {
@@ -228,7 +218,7 @@ section p {
 }
 
 .modal-header {
-  background: coral;
+  background: rgb(255, 136, 0);
   padding: 15px;
   color: white;
   text-align: center;
@@ -239,7 +229,7 @@ section p {
 }
 
 .modal-footer {
-  background: coral;
+  background: rgb(255, 136, 0);
   padding: 10px;
   color: #fff;
   text-align: center;
@@ -252,7 +242,7 @@ section p {
 }
 
 .closeBtn:hover,
-closeBtn:focus {
+.closeBtn:focus {
   color: #000;
   cursor: pointer;
   text-decoration: none;
