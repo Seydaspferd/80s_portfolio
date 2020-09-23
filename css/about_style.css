@@ -47,7 +47,7 @@ body {
     height: 45vh;
   }
   .title {
-    top: 4%;
+    top: 0;
     line-height: 120px;
   }
 
@@ -58,6 +58,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .title-container {
+    margin-top: 20px;
     height: 25vh;
   }
 
