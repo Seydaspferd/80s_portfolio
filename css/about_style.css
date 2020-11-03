@@ -18,7 +18,7 @@ body {
   font-family: 'Bungee Outline', cursive;
   color: rgb(255, 255, 255);
   position: absolute;
-  top: -86px;
+  top: 8vh;
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
@@ -31,7 +31,7 @@ body {
   position: static;
   height: 60vh;
   width: 100%;
-  background-image: url(../img/bg4.svg);
+  background-image: url(../img/bg-4-style2.svg);
   background-repeat: no-repeat;
   background-size: 100% auto;
 
