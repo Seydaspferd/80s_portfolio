@@ -59,7 +59,7 @@ body {
 	position: static;
 	color: #fff;
 	text-align: center;
-	margin: 20px 20px;
+	margin: 20px 48px;
 }
 
 .project-container a {
@@ -68,7 +68,7 @@ body {
 
 .projects {
 	display: grid;
-	grid-gap: 0.7rem;
+	grid-gap: 0.9rem;
 	grid-template-columns: repeat(3, 1fr);
 }
 .projects img {
