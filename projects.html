@@ -1386,9 +1386,9 @@
     <!-- rainbow scrollbar -->
     <script type="text/javascript">
       let progress = document.getElementById('progressbar');
-      let totalHeight = document.body.clientHeight - window.innerHeight;
+      let totalHeight = document.body.clientHeight  + 2 * window.innerHeight;
       window.onscroll = function () {
-        let progressHeight = (window.pageYOffset / totalHeight) * 35;
+        let progressHeight = (100 / (totalHeight / window.pageYOffset));
         progress.style.height = progressHeight + '%';
       };
     </script>
